@@ -1,12 +1,3 @@
- (function($){
- $('input.autocomplete').autocomplete({
-    data: {
-      "Apple": null,
-      "Microsoft": null,
-      "Google": 'http://placehold.it/250x250'
-    }
-  });
-}
 
 (function($){
   $(function(){
@@ -26,12 +17,12 @@
       $(document).ready(function() {
     $('select').material_select();
   });
-            
- 
+
+
     $(document).ready(function(){
       $('.parallax').parallax();
     });
-        
+
         (function($){
   $(function(){
 
@@ -81,7 +72,6 @@ function searchToggle(obj, evt){
 [].slice.call( document.querySelectorAll('.content a') ).forEach( function(el) {
   el.onclick = function() { return false; }
 } );
-    
+
      $(".button-collapse").sideNav();
      $('.collapsible').collapsible();
-
