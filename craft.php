@@ -77,8 +77,7 @@
               <img src="images/daniel-beer.jpg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Summer Ale - Citrusy Bitterness buvo vienas iš pirmųjų Daniel Parfionov išvirtų alų. Jis pasižymėjo švelniais vaisiniais ir esterių pustoniais bei citrusinių bei kitų tropinių vaisių skoniu.</p>
             </div>
           </div>
         </div>

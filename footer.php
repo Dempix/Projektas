@@ -22,7 +22,7 @@
               <div class="col l6 s12">		
 
   <div class="name">
-    <input class="first nopadding" placeholder="Vardase" type="text">
+    <input class="first nopadding" placeholder="Vardas" type="text">
     <input class="last nopadding" placeholder="Pavardė" type="text">
   </div>
   <div class="contact">
