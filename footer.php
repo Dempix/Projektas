@@ -19,17 +19,19 @@
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
-              <div class="col l6 s12">		
+              <div class="col l6 s12">
+<form class="" action="php_files/suggestion.php" method="POST">
 
   <div class="name">
-    <input class="first nopadding" placeholder="Vardas" type="text">
-    <input class="last nopadding" placeholder="Pavardė" type="text">
+
+    <input class="first nopadding" placeholder="Vardas" name="name" type="text">
+    <input class="last nopadding" placeholder="Pavardė" name="surename" type="text">
   </div>
   <div class="contact">
-    <input class="email nopadding" placeholder="El. Paštas" type="text">
+    <input class="email nopadding" placeholder="El. Paštas" name="el" type="text">
   </div>
   <div class="message">
-    <textarea placeholder="Jūsų pasiūlymai!"></textarea>
+    <textarea placeholder="Jūsų pasiūlymai!" name="sug"></textarea>
   </div>
   <footer class="center-align">
 
@@ -37,14 +39,16 @@
     <i class="material-icons right">send</i>
   	</button>
 
-  </footer>
+</form>
+
+</footer>
 </div>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2017 
+            © 2017
             <a class="grey-text text-lighten-4 right" href="http://www.vilniuscoding.lt">Vilnius Coding School</a>
             </div>
 
