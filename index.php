@@ -1,4 +1,3 @@
-
 <?php
  include 'header.php';
  include 'conn.php';
@@ -12,46 +11,35 @@ $result = $conn -> query($sql);
 
 ?>
 
-
-
+<!--   INDEX PRADZIA   -->
+<!--   INDEX PRADZIA   -->
 <!--   INDEX PRADZIA   -->
 
-
-
-
-
-<!--   SEARCH'as - PABAIGA   -->
-
-<!--   MAIN IMAGE PRADZIA   -->
+<!--   MAIN IMAGE IR SEARCH PRADZIA   -->
 <div id="mainimangecenter">
-  <img class="mainimg" src="images/main_picture.png">
+  <img class="mainimg hoverable" src="images/main_picture.png">
       <div id="searchas">
-          <form action = "bars.php" method="GET">
-              <div class="input-field" >
-                <input type="text" id="autocomplete-input" class="autocomplete" name="name">
-                <label for="autocomplete-input">Search</label>
+          <div class="input-field" >
+                 <input type="text" id="autocomplete-input" class="autocomplete" name="name">
+                  <label for="autocomplete-input">Search</label>
                  <ul class="autocomplete-content dropdown-content"></ul>
-              </div>
-            </form>
+                </div>
+              </form>
+        </div>
       </div>
-    </div>
-</div>
-
-
-<!--   SEARCH'as - PABAIGA   -->
-
-
+  </div>
+<!--   MAIN IMAGE IR SEARCH PABAIGA   -->
 
         <!--   TOP 4 barai - keturi langai - PRADZIA  -->
+
 <div class="row">
 
   <?php while( $row = mysqli_fetch_assoc($result)){include 'Bar_news_card.php';} ?>
 
 </div>
+
       <!--   TOP 4 barai - keturi langai - PABAIGA   -->
 
 <!--   INDEX PABAIGA   -->
-
-
 
 <?php include 'footer.php'; ?>
