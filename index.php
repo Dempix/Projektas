@@ -43,77 +43,11 @@ $result = $conn -> query($sql);
 
 
         <!--   TOP 4 barai - keturi langai - PRADZIA  -->
-        <div class="row">
-          <!--   pirmas langas   -->
-      <div class="col s12 m6 l3 ">
-        <div class="card z-depth-1 grey lighten-2">
-          <div class="card-image">
-            <img src=<?php $row = mysqli_fetch_assoc($result); echo '"'.$row['Bar_image'].'"'; ?>>
-            <span class="card-title"><?php echo $row['Bar_name'];  ?></span>
-          </div>
-          <div class="card-content">
-            <p class="truncate"><?php echo $row['Bar_description'];  ?></p>
-          </div>
-          <div class="card-action right-align">
-            <a id="graylink" href=<?php echo'"bars.php?ID='.$row['ID'].'"' ?>>Skaityti daugiau...</a>
-          </div>
-        </div>
-      </div>
-    <!--   pirmo lango pabaiga   -->
-    <!--   antras langas   -->
-      <div class="col s12 m6 l3 ">
-        <div class="card z-depth-1 grey lighten-2">
-          <div class="card-image">
-            <img src=<?php $row = mysqli_fetch_assoc($result); echo '"'.$row['Bar_image'].'"'; ?>>
-            <span class="card-title"><?php echo $row['Bar_name'];  ?></span>
-          </div>
-          <div class="card-content">
-            <p class="truncate"><?php echo $row['Bar_description'];  ?></p>
-          </div>
-          <div class="card-action right-align">
-            <a id="graylink" href=<?php echo'"bars.php?ID='.$row['ID'].'"' ?>>Skaityti daugiau...</a>
+<div class="row">
 
-          </div>
-        </div>
-      </div>
-    <!--   antro lango pabaiga   -->
-    <!--   trecias langas   -->
+  <?php while( $row = mysqli_fetch_assoc($result)){include 'Bar_news_card.php';} ?>
 
-    <!--   antro lango pabaiga   -->
-    <!--   trecias langas   -->
-      <div class="col s12 m6 l3 ">
-        <div class="card z-depth-1 grey lighten-2">
-          <div class="card-image">
-            <img src=<?php $row = mysqli_fetch_assoc($result); echo '"'.$row['Bar_image'].'"'; ?>>
-            <span class="card-title"><?php echo $row['Bar_name'];  ?></span>
-          </div>
-          <div class="card-content">
-            <p class="truncate"><?php echo $row['Bar_description'];  ?></p>
-          </div>
-          <div class="card-action right-align">
-            <a id="graylink" href=<?php echo'"bars.php?ID='.$row['ID'].'"' ?>>Skaityti daugiau...</a>
-          </div>
-        </div>
-      </div>
-
-    <!--   trecio lango pabaiga   -->
-    <!--   ketvirtas langas   -->
-      <div class="col s12 m6 l3 ">
-        <div class="card z-depth-1 grey lighten-2">
-          <div class="card-image">
-            <img src=<?php $row = mysqli_fetch_assoc($result); echo '"'.$row['Bar_image'].'"'; ?>>
-            <span class="card-title"><?php echo $row['Bar_name'];  ?></span>
-          </div>
-          <div class="card-content">
-            <p class="truncate"><?php echo $row['Bar_description'];  ?></p>
-          </div>
-          <div class="card-action right-align">
-            <a id="graylink" href=<?php echo'"bars.php?ID='.$row['ID'].'"' ?>>Skaityti daugiau...</a>
-          </div>
-        </div>
-      </div>
-
-      </div>
+</div>
       <!--   TOP 4 barai - keturi langai - PABAIGA   -->
 
 <!--   INDEX PABAIGA   -->
