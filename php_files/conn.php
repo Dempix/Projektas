@@ -1,9 +1,9 @@
 <?php
 
-$conn = mysqli_connect("sql7.freemysqlhosting.net", "sql7151951", "BywmHlSxyP", "sql7151951"  ) ;
+$conn = mysqli_connect("sql7.freemysqlhosting.net", "sql7153047", "2TKkMMw3Gv", "sql7153047"  ) ;
 
 if(!$conn){
-	die("connection failed:");
+	die("connection failed: ");
 	echo "error";
 }
 
