@@ -18,7 +18,3 @@ $(document).ready(function()
         });
 });
 
-$(window).load(function(){
-	console.log("labas");
-	$('.gif').trigger("mouseover");
-});

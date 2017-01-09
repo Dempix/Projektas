@@ -7,7 +7,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-contents.gif">
+              <img class="gif" src="images/beer-contents.png">
             </div>
             <div class="card-content">
               <p>Tikras alus susideda tik iš keturių ingridientų: vandens, salyklo, apynių bei mielių. Pagal ES standartus jei į alų yra įdedami papildomi ingridientai jo pavadinimas pasikeičia iš "Alaus" į "Specialios technologijos alų".</p>
@@ -17,7 +17,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-milling.gif">
+              <img class="gif" src="images/beer-milling.png">
             </div>
             <div class="card-content">
               <p>Pirmas alaus gamybos etapas yra salyklo paruošimas - jis skrudinamas, kad išgauti sodresnę alaus spalvą. Vėliau sakyklas traiškomas, kad būtų lengviau išgauti viduje esantį cukrų bei krakmolą.</p>
@@ -27,7 +27,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-mashing.gif">
+              <img class="gif" src="images/beer-mashing.png">
             </div>
             <div class="card-content">
               <p>Antrame etape salyklas yra salinamas. Tuo metu vyksta salyklo grūduose esančio netirpaus vandenyje krakmolo apcukrinimas. Netirpus krakmolas tampa tirpiu cukrų ir dekstrinų mišiniu.</p>
@@ -37,7 +37,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-boiling.gif">
+              <img class="gif" src="images/beer-boiling.png">
             </div>
             <div class="card-content">
               <p>Trečiame etape salyklas buna atskiriamas nuo skysčio. Gautas skystys yra vadinamas misa. Ji verdama pagal specialų receptą įdedant kartinimo bei aromatizacijos apynius tam tikrais laiko intervalais.</p>
@@ -47,7 +47,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-chilling.gif">
+              <img class="gif" src="images/beer-chilling.png">
             </div>
             <div class="card-content">
               <p>Vėliau misa turi būti kuo greičiau atšaldoma. Alaus pramonėje dažniausiai yra naudojami dideli šilumokaičiai, kurie sugeba 2000 litrų misos atšaldyti iki 20 laipsnių Celsijaus per vieną valandą.</p>
@@ -57,7 +57,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-fermenting.gif">
+              <img class="gif" src="images/beer-fermenting.png">
             </div>
             <div class="card-content">
               <p>Penktame etape misa yra supilama į fermantacijos indus bei įdedamos mieles. Fermentacija dažniausiai trunka apei savaitę, kurios metu mielės maitinsis misoje esančiu cukrumi ir išskirs alkoholį.</p>
@@ -67,7 +67,7 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="gif" src="images/beer-bottling.gif">
+              <img class="gif" src="images/beer-bottling.png">
             </div>
             <div class="card-content">
               <p>Paskutinis alaus gamybos etapas yra alaus išpilstymas į butelius. Išpilstytas alus dažniausiai brandinamas porą savaičių. Kai kurios alaus rūšys brandinamos net šešis mėnesius.</p>
