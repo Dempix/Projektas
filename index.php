@@ -26,7 +26,6 @@ $result = $conn -> query($sql);
            <ul class="autocomplete-content dropdown-content"></ul>
           </div>
         </form>
-        </div>
       </div>
   </div>
 <!--   MAIN IMAGE IR SEARCH PABAIGA   -->

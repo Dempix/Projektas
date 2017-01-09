@@ -1,6 +1,5 @@
 
 
-
 (function($){
   $(function(){
 
@@ -19,12 +18,12 @@
       $(document).ready(function() {
     $('select').material_select();
   });
-            
- 
+
+
     $(document).ready(function(){
       $('.parallax').parallax();
     });
-        
+
         (function($){
   $(function(){
 
@@ -74,7 +73,6 @@ function searchToggle(obj, evt){
 [].slice.call( document.querySelectorAll('.content a') ).forEach( function(el) {
   el.onclick = function() { return false; }
 } );
-    
+
      $(".button-collapse").sideNav();
      $('.collapsible').collapsible();
-
