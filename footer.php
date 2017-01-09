@@ -23,6 +23,7 @@
 <form class="" action="php_files/suggestion.php" method="POST">
 
   <div class="name">
+
     <input class="first nopadding" placeholder="Vardas" name="name" type="text">
     <input class="last nopadding" placeholder="Pavardė" name="surename" type="text">
   </div>
