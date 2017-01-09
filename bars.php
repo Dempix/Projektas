@@ -7,11 +7,11 @@ header('Content-Type: text/html; charset=utf-8');
 mysqli_set_charset($conn, "utf8");
 
 if(isset($_GET['ID'])){$sql_input = "WHERE ID =".$_GET['ID'];
-$sql ="SELECT * FROM Bars ".$sql_input;
+$sql ="SELECT * FROM bars ".$sql_input;
 $result = $conn -> query($sql);}
 
 if(isset($_GET['name'])){$sql_input = "WHERE Bar_name LIKE'%".$_GET['name']."%' ORDER BY Likes DESC LIMIT 10";
-$sql ="SELECT * FROM Bars ".$sql_input;
+$sql ="SELECT * FROM bars ".$sql_input;
 $result = $conn -> query($sql);}
 
 if(isset($_GET["search_by"]) && $_GET["search_by"] != null){
@@ -24,7 +24,7 @@ switch ($_GET["search_by"]) {
 	case '5':	$sql_input = "ORDER BY RAND() LIMIT 10";	break;
 
 }
-$sql ="SELECT * FROM Bars ".$sql_input;
+$sql ="SELECT * FROM bars ".$sql_input;
 $result = $conn -> query($sql);
 
 

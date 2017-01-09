@@ -5,7 +5,7 @@
  header('Content-Type: text/html; charset=utf-8');
  mysqli_set_charset($conn, "utf8");
 
- $sql ="SELECT ID, Bar_name , Bar_description , Bar_image FROM Bars ORDER BY RAND() LIMIT 4" ;
+ $sql ="SELECT ID, Bar_name , Bar_description , Bar_image FROM bars ORDER BY RAND() LIMIT 4" ;
 
 $result = $conn -> query($sql);
 
