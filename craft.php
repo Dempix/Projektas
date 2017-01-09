@@ -81,17 +81,6 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="images/daniel-bottles.jpg">
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-          </div>
-        </div>
     </div>
 
 <?php include 'footer.php'; ?>
