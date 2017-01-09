@@ -67,7 +67,7 @@
               <img src="images/beer-bottling.gif">
             </div>
             <div class="card-content">
-              <p>Paskutinis alaus gamybos etapas yra alaus išpilstymas į butelius. </p>
+              <p>Paskutinis alaus gamybos etapas yra alaus išpilstymas į butelius. Išpilstytas alus dažniausiai brandinamas porą savaičių. Kai kurios alaus rūšys brandinamos net šešis mėnesius.</p>
             </div>
           </div>
         </div>
@@ -77,8 +77,7 @@
               <img src="images/daniel-beer.jpg">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Summer Ale - Citrusy Bitterness buvo vienas iš pirmųjų Daniel Parfionov išvirtų alų. Jis pasižymėjo švelniais vaisiniais ir esterių pustoniais bei citrusinių bei kitų tropinių vaisių skoniu.</p>
             </div>
           </div>
         </div>
